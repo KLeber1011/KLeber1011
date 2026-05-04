@@ -37,5 +37,5 @@ Líder estratégico em **Governança de Infraestrutura e Transformação Digital
 ---
 
 ## 📫 Conecte-se comigo
-[![LinkedIn](https://shields.io)](https://linkedin.com) 
+[![LinkedIn](https://shields.io)](https://[(https://www.linkedin.com/in/kleber-alexandre-barros-nascimento-0abb5424/?skipRedirect=true)]
 *(Verifique se o seu link do LinkedIn é este mesmo e ajuste se necessário)*
