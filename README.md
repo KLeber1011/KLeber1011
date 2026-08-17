@@ -38,21 +38,21 @@ decision — the reasoning, not just the result.
 ---
  
 ## Architecture Case Studies
- 
-> Case studies are being published progressively. Each one is self-contained,
-> with a README, diagrams, and the decision narrative.
- 
-- **`sdwan-pme-reference-architecture`** — *Reference architecture (design exercise).*
-  Resilient multi-site connectivity for a small/medium enterprise: SD-WAN
-  overlay, transport redundancy, SLA tiers. Greenfield design, from requirements
-  to HLD and BOM.  `[ in progress ]`
-- **`ossbss-provisioning-predictability`** — *Case study, conceptual.*
-  Cross-system data integration across BSS/OSS to build a provisioning
-  predictability model, structured on the eTOM capability hierarchy. Anonymized
-  and generalized from real-world work.  `[ in progress ]`
-- **`b2b-infrastructure-rollout`** — *Case study, conceptual.*
-  Large-scale infrastructure rollout: capacity planning, CAPEX governance and
-  multi-vendor orchestration under SLA. Anonymized.  `[ planned ]`
+
+> Each case study is self-contained, with a README, diagrams, decision records
+> (ADRs), and the business case — the reasoning, not just the result.
+
+- **[sdwan-retail-reference-architecture](https://github.com/KLeber1011/sdwan-retail-reference-architecture)** — *Reference architecture (design exercise).*
+  Resilient multi-site connectivity for a regional retail chain (~35 stores):
+  SD-WAN overlay, tiered redundancy, application-aware traffic policy, hybrid
+  transport. From requirements to HLD, ADRs, BOM and risk register.
+
+- **[logistics-dc-reference-architecture](https://github.com/KLeber1011/logistics-dc-reference-architecture)** — *Reference architecture (design exercise).*
+  Shared technology infrastructure for a multi-tenant logistics condominium:
+  neutral meet-me, optical backbone, Tier III-inspired critical power, OT/IT
+  segregation, hybrid cloud on-ramp. Discovery → HLD → interface spec → BoM/BoQ
+  → TCO/ROI → technical proposal, with Terraform/AWS evidence.
+  
 ---
  
 ## Certifications & Learning
