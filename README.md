@@ -57,13 +57,17 @@ decision — the reasoning, not just the result.
  
 ## Certifications & Learning
  
-Cisco CCST Networking · Cisco CyberOps Associate · Cisco CCNA (Intro to Networks) ·
-DWDM Concepts · PSPO I (Scrum.org) · Lean Six Sigma Yellow Belt ·
-**In progress:** Cisco 300-415 ENSDWI (SD-WAN), AWS Solutions Architect, TOGAF.
- 
-The `learning/` repositories (Cisco NetAcad labs, Udacity drone-control
-exercises) are study artifacts, kept public for transparency of the learning
-path — not production work.
+**Certifications:** Cisco CCST Networking · Cisco CyberOps Associate ·
+DWDM Concepts (PARKS) · PSPO I (Scrum.org) · Lean Six Sigma Yellow Belt.
+
+**Training completed:** Cisco CCNA curriculum (completed multiple times; also
+delivered as a NetAcad instructor) · Cisco CCNP Enterprise curriculum · applied,
+hands-on focus.
+
+**In progress:** Cisco 300-415 ENSDWI (SD-WAN) · AWS Solutions Architect · TOGAF.
+
+Study repositories (NetAcad labs, Udacity drone-control exercises) are kept public
+for transparency of the learning path — not production work.
  
 ---
  
