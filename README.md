@@ -1,75 +1,62 @@
-# Kleber Nascimento — Infrastructure & Solutions Architect
- 
-**Telecom & Network Architecture · OSS/BSS · IP/MPLS · DWDM · SD-WAN · Cloud**
- 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kleber-alexandre-barros-nascimento-0abb5424/)
-![Focus](https://img.shields.io/badge/Focus-Solutions%20Architecture-2D3748?style=flat)
-![Experience](https://img.shields.io/badge/Experience-21%2B%20years-2D3748?style=flat)
- 
+# Kleber Nascimento — Solutions & Integration Architect
+
+**Telecom & Critical Infrastructure · OSS/BSS · IP/MPLS · DWDM · GPON · SD-WAN · Cloud · Technical M&A Integration Due Diligence**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kleber%20Nascimento-0A66C2?logo=linkedin)](https://www.linkedin.com/in/kleber-alexandre-barros-nascimento-0abb5424/)
+[![Site](https://img.shields.io/badge/Site-kleber1011.github.io-1F7A7A)](https://kleber1011.github.io/)
+![Experience](https://img.shields.io/badge/Experience-21%2B%20years%20Tier--1%20telecom-0E1419)
+
 ---
- 
+
 ## About
- 
-Infrastructure & Solutions Architect with 21+ years across Tier-1 Brazilian
-telecom operators (Vivo / Telefônica, V.tal), spanning the full stack — from
-physical transmission (SDH, PDH, Pair Gain) to OSS/BSS architecture, IP/MPLS and
-FTTH pre-sales design.
- 
-I work where network engineering meets business decision: translating
-requirements into reference architectures, high-level designs (HLD), bills of
-materials and architecture decision records — the artifacts that turn
-infrastructure investment into a defensible technical position.
- 
-This repository space is a **working portfolio of architecture case studies**.
-Each repository documents a design problem, the trade-offs considered, and the
-decision — the reasoning, not just the result.
- 
----
- 
-## Core Domains
- 
-| Domain | Focus |
+
+Solutions Architect with 21+ years in Tier-1 Brazilian telecom operators (Vivo / Telefônica, V.tal) — from field and central offices to OSS/BSS, pre-sales architecture and program leadership.
+
+I design solutions that hold up in the field: requirements → HLD/LLD → ADRs → BoM → TCO, with the operational reality (inventory, capacity, SLAs, vendors) built into the design — not discovered after go-live.
+
+The same discipline applies to **M&A**: measuring, before the closing, whether the systems, network and inventory of two companies can actually deliver the synergy on paper.
+
+> *Every synergy depends on a system. Who audited that system?*
+
+## Selected results (Tier-1 operator)
+
+| Result | Context |
 |---|---|
-| **Network Architecture** | IP/MPLS, L2/L3 VPN, MPLS/EVPN, DWDM, GPON/FTTH, SD-WAN |
-| **OSS/BSS** | Provisioning, activation, inventory, assurance; eTOM / TM Forum alignment |
-| **Solutions Design** | HLD, ADR, BOM, capability mapping, RFI/RFP, technical defense |
-| **Governance** | CAPEX/OPEX, SLA design, vendor orchestration, public-sector procurement (Law 14.133) |
- 
+| **BRL 13.6M CAPEX preserved** | Reuse of uncatalogued field capacity across 1,878 central offices instead of new build |
+| **Lead-time 6 months → 5 days (-97%)** | Predictive capacity monitoring crossing OSS/BSS data |
+| **Provisioning 50 → 12 min (-76%)** | Process redesign and automation (BPMN) for IP/MPLS VPN services |
+| **1,696 IPv4 blocks mapped as unbilled** | Network × billing reconciliation; business case to VP level |
+
+## What I work on
+
+| Domain | Scope |
+|---|---|
+| **Solutions architecture** | Pre-sales design, RFP/RFI, HLD/LLD, BoM, TCO/ROI, technical defense with C-level |
+| **Network architecture** | IP/MPLS, EVPN, DWDM, GPON/FTTx, SD-WAN, data-center interconnect |
+| **OSS/BSS** | Provisioning, inventory, assurance; TM Forum SID/eTOM, TMF 638/639 |
+| **Integration & M&A** | Technical integration due diligence (pre-close), Day 1, D0–D100, synergy baselines |
+| **Governance** | Capacity planning, configuration drift, IP resource governance, vendor management |
+
+## Case studies
+
+| Repository | What it shows |
+|---|---|
+| [**integration-due-diligence-phase-zero**](https://github.com/KLeber1011/integration-due-diligence-phase-zero) | Pre-close technical integration due diligence kit for an ISP acquisition: IRL, risk register with confidence levels, complexity scoring, synergy baseline, Day 1, executive summary |
+| [**sdwan-retail-reference-architecture**](https://github.com/KLeber1011/sdwan-retail-reference-architecture) | SD-WAN reference architecture for a ~35-store regional retail chain: requirements, HLD, ADRs, QoS, last-mile diversity, risks |
+| [**logistics-dc-reference-architecture**](https://github.com/KLeber1011/logistics-dc-reference-architecture) | Multi-tenant logistics condominium: neutral meet-me, optical backbone, OT/IT segregation, hybrid cloud on-ramp, Terraform evidence |
+
+All cases use fictitious or public-reference scenarios. No client or employer confidential data.
+
+## Certifications
+
+**Certified:** AWS Certified Cloud Practitioner · Huawei HCIA-5G · Cisco CCST Networking · Cisco CyberOps Associate · Terraform / IaC (RNP) · PSPO I (Scrum.org) · Lean Six Sigma Yellow Belt
+
+**In progress:** Cisco 300-415 ENSDWI (SD-WAN) · AWS Solutions Architect – Associate · TOGAF
+
+## Writing
+
+Essays on capacity, governance, telecom market and M&A integration — published on LinkedIn and organised by thesis at **[kleber1011.github.io](https://kleber1011.github.io/#insights)**.
+
 ---
- 
-## Architecture Case Studies
 
-> Each case study is self-contained, with a README, diagrams, decision records
-> (ADRs), and the business case — the reasoning, not just the result.
-
-- **[sdwan-retail-reference-architecture](https://github.com/KLeber1011/sdwan-retail-reference-architecture)** — *Reference architecture (design exercise).*
-  Resilient multi-site connectivity for a regional retail chain (~35 stores):
-  SD-WAN overlay, tiered redundancy, application-aware traffic policy, hybrid
-  transport. From requirements to HLD, ADRs, BOM and risk register.
-
-- **[logistics-dc-reference-architecture](https://github.com/KLeber1011/logistics-dc-reference-architecture)** — *Reference architecture (design exercise).*
-  Shared technology infrastructure for a multi-tenant logistics condominium:
-  neutral meet-me, optical backbone, Tier III-inspired critical power, OT/IT
-  segregation, hybrid cloud on-ramp. Discovery → HLD → interface spec → BoM/BoQ
-  → TCO/ROI → technical proposal, with Terraform/AWS evidence.
-  
----
- 
-## Certifications & Learning
- 
-**Certifications:** Cisco CCST Networking · Cisco CyberOps Associate ·
-DWDM Concepts (PARKS) · PSPO I (Scrum.org) · Lean Six Sigma Yellow Belt.
-
-**Training completed:** Cisco CCNA curriculum (completed multiple times; also
-delivered as a NetAcad instructor) · Cisco CCNP Enterprise curriculum · applied,
-hands-on focus.
-
-**In progress:** Cisco 300-415 ENSDWI (SD-WAN) · AWS Solutions Architect · TOGAF.
-
-Study repositories (NetAcad labs, Udacity drone-control exercises) are kept public
-for transparency of the learning path — not production work.
- 
----
- 
-*Language note: this portfolio is maintained in English. Brazilian regulatory
-references (e.g. Law 14.133) keep their local name with an English explanation.*
+*Open to Solutions Architect, Technical Program Manager and technical M&A integration roles · Remote / hybrid (São Paulo) · Portuguese (native), English (C1).*
